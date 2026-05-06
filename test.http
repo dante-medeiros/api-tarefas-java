@@ -1,0 +1,9 @@
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+{
+  "titulo": "gerenciamento de terefas",
+  "descricao": "Projeto",
+  "concluida": false,
+  "prioridade": "alta"
+}
